@@ -1,6 +1,7 @@
 import chess
 import human
 import randomAI
+import decisionTreeAI
 
 def play(printGame = True):
     board = chess.Board()
@@ -9,10 +10,10 @@ def play(printGame = True):
         print board
         print "Let's start with this game of chess"
 
-    numMoves = 0
     #player1 = human.Human("Player 1")
     player1 = randomAI.RandomAI("Player 1")
-    player2 = randomAI.RandomAI("Player 2")
+    #player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
+    player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, True)
 
     while (not board.is_game_over()):
 
@@ -30,19 +31,17 @@ def play(printGame = True):
 
         player2Move = player2.move(board)
         if player2Move == -1:
-            return board, numMoves
+            return board
         board.push(player2Move)
 
         if printGame:
             print board
 
-        numMoves += 1
-
     if printGame:
         print '\nResult:', board.result()
-        print 'Number of moves:', numMoves
+        print 'Number of plys:', board.fullmove_number
 
-    return board, numMoves
+    return board
 
 
 if __name__ == '__main__':

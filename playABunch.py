@@ -7,15 +7,15 @@ def playABunch(numGames):
     draws = 0
 
     for i in range(1, numGames + 1):
-        finalBoard, numMoves = play(False)
+        finalBoard = play(False)
         if (finalBoard.result() == '1-0'):
             player1Wins += 1
-            print 'Player 1 wins game', i, 'in', numMoves, 'moves.'
+            print 'Player 1 wins game', i, 'in', finalBoard.fullmove_number, 'moves.'
             print finalBoard
             print '\n'
         elif (finalBoard.result() == '0-1'):
             player2Wins += 1
-            print 'Player 2 wins game', i, 'in', numMoves, 'moves.'
+            print 'Player 2 wins game', i, 'in', finalBoard.fullmove_number, 'moves.'
             print finalBoard
             print '\n'
         elif (finalBoard.result() == '1/2-1/2'):
