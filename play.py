@@ -2,6 +2,7 @@ import chess
 import human
 import randomAI
 import decisionTreeAI
+import scikitLinearAI
 
 def play(printGame = True):
     board = chess.Board()
@@ -10,10 +11,11 @@ def play(printGame = True):
         print board
         print "Let's start with this game of chess"
 
-    #player1 = human.Human("Player 1")
+    # player1 = human.Human("Player 1")
     player1 = randomAI.RandomAI("Player 1")
-    #player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
-    player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, True)
+    # player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
+    # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, True)
+    player2 = scikitLinearAI.ScikitLinearAI("Player 2", chess.BLACK, 1, True)
 
     while (not board.is_game_over()):
 
@@ -31,6 +33,9 @@ def play(printGame = True):
 
         player2Move = player2.move(board)
         if player2Move == -1:
+            if printGame:
+                print '\nResult:', board.result()
+                print 'Number of plys:', board.fullmove_number
             return board
         board.push(player2Move)
 
