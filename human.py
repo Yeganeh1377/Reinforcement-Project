@@ -12,13 +12,13 @@ class Human(player.Player):
         userMove = 0
         while (not userMove):
             try:
-                userInput = raw_input('Please enter a valid move! ')
+                userInput = input('Please enter a valid move! ')
                 userMove = chess.Move.from_uci(userInput)
             except ValueError as ve:
-                print 'That was not a chess move;', ve
+                print('That was not a chess move;', ve)
 
         while (not userMove in legalMoves):
-            userInput = raw_input("That move won't work on this board. Try again. ")
+            userInput = input("That move won't work on this board. Try again. ")
             userMove = chess.Move.from_uci(userInput)
 
         return userMove

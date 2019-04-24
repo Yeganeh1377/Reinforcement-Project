@@ -17,10 +17,10 @@ class ScikitLinearAI(decisionTreeAI.DecisionTreeAI):
         if (retrain):
             self.classifier = linear_model.SGDRegressor()
             X, y = self.readFile("data/Kasparov.pgn");
-            print "Done reading data"
+            print("Done reading data")
             self.classifier.fit(X, y)
             joblib.dump(self.classifier, "data/SGDRegressorModel_Kasparov.pkl")
-            print "Done fitting data"
+            print("Done fitting data")
         self.classifier = joblib.load('data/SGDRegressorModel_Kasparov.pkl')
 
     def evaluateBoard(self, board=chess.Board()):

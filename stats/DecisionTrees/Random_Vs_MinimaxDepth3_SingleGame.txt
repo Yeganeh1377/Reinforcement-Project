@@ -1,0 +1,445 @@
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+P P P P P P P P
+R N B Q K B N R
+Let's start with this game of chess
+
+
+Player 1 will now play
+r n b q k b n r
+p p p p p p p p
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+
+
+Player 2 will now play
+r n b q k b n r
+p p p p p p . p
+. . . . . . p .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . N
+P P P P P P P P
+R N B Q K B . R
+
+
+Player 1 will now play
+r n b q k b n r
+p p p p p p . p
+. . . . . . p .
+. . . . . . . .
+. . . . . P . .
+. . . . . . . N
+P P P P P . P P
+R N B Q K B . R
+
+
+Player 2 will now play
+r n b q k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. . . . . P . .
+. . . . . . . N
+P P P P P . P P
+R N B Q K B . R
+
+
+Player 1 will now play
+r n b q k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. . . . . P . .
+P . . . . . . N
+. P P P P . P P
+R N B Q K B . R
+
+
+Player 2 will now play
+r n b . k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. . . . . P . q
+P . . . . . . N
+. P P P P . P P
+R N B Q K B . R
+
+
+Player 1 will now play
+r n b . k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. . . . . P . q
+P . . . . . P N
+. P P P P . . P
+R N B Q K B . R
+
+
+Player 2 will now play
+r n b . k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . q
+. . . . . P . .
+P . . . . . P N
+. P P P P . . P
+R N B Q K B . R
+
+
+Player 1 will now play
+r n b . k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . q
+. . . . . P . .
+P . . . . . P .
+. P P P P . . P
+R N B Q K B N R
+
+
+Player 2 will now play
+r n b . k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. . . . . P q .
+P . . . . . P .
+. P P P P . . P
+R N B Q K B N R
+
+
+Player 1 will now play
+r n b . k b n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. . . . . P q .
+P . . . . . P B
+. P P P P . . P
+R N B Q K . N R
+
+
+Player 2 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. b . . . P q .
+P . . . . . P B
+. P P P P . . P
+R N B Q K . N R
+
+
+Player 1 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . . . p . . .
+. b . . . P q .
+P . . . . . P B
+. P P P P K . P
+R N B Q . . N R
+
+
+Player 2 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . p . . .
+. . . . . P q .
+P . . . . . P B
+. P P P P K . P
+R N B Q . . N R
+
+
+Player 1 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . p . . .
+. . . . . P q .
+P . . . . . P B
+. P P P P . K P
+R N B Q . . N R
+
+
+Player 2 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . . . . .
+. . . . . p q .
+P . . . . . P B
+. P P P P . K P
+R N B Q . . N R
+
+
+Player 1 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . . . . .
+. . P . . p q .
+P . . . . . P B
+. P . P P . K P
+R N B Q . . N R
+
+
+Player 2 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . . . . .
+. . P . . . q .
+P . . . . p P B
+. P . P P . K P
+R N B Q . . N R
+
+
+Player 1 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . . . . .
+. . P . . . q .
+P . . . . P P B
+. P . P . . K P
+R N B Q . . N R
+
+
+Player 2 will now play
+r n b . k . n r
+p p p p . p . p
+. . . . . . p .
+. . b . . . . .
+. . q . . . . .
+P . . . . P P B
+. P . P . . K P
+R N B Q . . N R
+
+
+Player 1 will now play
+r n b . k . n r
+p p p B . p . p
+. . . . . . p .
+. . b . . . . .
+. . q . . . . .
+P . . . . P P .
+. P . P . . K P
+R N B Q . . N R
+
+
+Player 2 will now play
+r . b . k . n r
+p p p n . p . p
+. . . . . . p .
+. . b . . . . .
+. . q . . . . .
+P . . . . P P .
+. P . P . . K P
+R N B Q . . N R
+
+
+Player 1 will now play
+r . b . k . n r
+p p p n . p . p
+. . . . . . p .
+. . b . . . . .
+. P q . . . . .
+P . . . . P P .
+. . . P . . K P
+R N B Q . . N R
+
+
+Player 2 will now play
+r . b . k . n r
+p p p n b p . p
+. . . . . . p .
+. . . . . . . .
+. P q . . . . .
+P . . . . P P .
+. . . P . . K P
+R N B Q . . N R
+
+
+Player 1 will now play
+r . b . k . n r
+p p p n b p . p
+. . . . . . p .
+. . . . . . . .
+. P q . . . . .
+P Q . . . P P .
+. . . P . . K P
+R N B . . . N R
+
+
+Player 2 will now play
+r . b . k . n r
+p p p n b p . p
+. . . . . . p .
+. . . . . . . .
+. P . . . . . .
+P q . . . P P .
+. . . P . . K P
+R N B . . . N R
+
+
+Player 1 will now play
+r . b . k . n r
+p p p n b p . p
+. . . . . . p .
+. . . . . . . .
+. P . . . P . .
+P q . . . . P .
+. . . P . . K P
+R N B . . . N R
+
+
+Player 2 will now play
+r . b . k . n r
+p p p n b p . p
+. . . . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . q . . P .
+. . . P . . K P
+R N B . . . N R
+
+
+Player 1 will now play
+r . b . k . n r
+p p p n b p . p
+. . . . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . q . . P P
+. . . P . . K .
+R N B . . . N R
+
+
+Player 2 will now play
+r . b . k . n r
+p p . n b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . q . . P P
+. . . P . . K .
+R N B . . . N R
+
+
+Player 1 will now play
+r . b . k . n r
+p p . n b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . q . . P P
+R . . P . . K .
+. N B . . . N R
+
+
+Player 2 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . q . . P P
+R . . P . . K .
+. N B . . . N R
+
+
+Player 1 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . q . . P P
+R . . P N . K .
+. N B . . . . R
+
+
+Player 2 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . . . . P P
+R . . P q . K .
+. N B . . . . R
+
+
+Player 1 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . . . . P P
+R . . P q . . .
+. N B . . . K R
+
+
+Player 2 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . . . . P P
+R . . P . . . .
+. N B . q . K R
+
+
+Player 1 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . . . . P P
+R . . P . . . K
+. N B . q . . R
+
+
+Player 2 will now play
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . . . . P P
+R . . P . q . K
+. N B . . . . R
+
+Result: 0-1
+Number of plys: 20
+Player 2 wins game 1 in 20 moves.
+r . b . k n n r
+p p . . b p . p
+. . p . . . p .
+. . . . . . . .
+. P . . . P . .
+P . . . . . P P
+R . . P . q . K
+. N B . . . . R
+
+
+
+Player 1 wins 0 game(s).
+Player 2 wins 1 game(s).
+Draw(s) 0

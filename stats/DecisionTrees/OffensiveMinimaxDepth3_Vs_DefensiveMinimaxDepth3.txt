@@ -1,0 +1,246 @@
+How many games? 20
+Print games? (Yes or No) No
+Starting game 1
+Draw in game 1 in 68 moves.
+. . . r . . . .
+. . . n . . . .
+. . . . . . . p
+p . . . . p p .
+. . . p p . n .
+. . k . . . K .
+. b . . b . . .
+. . . . . q . .
+
+
+Starting game 2
+Draw in game 2 in 57 moves.
+. n . . . . . .
+. r . . p . . .
+. . . p . k . .
+. . q b . . . .
+K p . q . . n .
+. . . . b . . .
+. . . . . . . .
+. . . . . . . .
+
+
+Starting game 3
+Draw in game 3 in 59 moves.
+. r . . . . . .
+. . . p n . b .
+. . . . . . . p
+. . . . . . k .
+. . . . . . . .
+. . n . q q p K
+. . . . . . . .
+. r . . . . . .
+
+
+Starting game 4
+Draw in game 4 in 95 moves.
+. r . . . . . .
+. . . . . . . r
+K . . . . n . k
+. p . . . . p p
+p . p . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . q . . .
+
+
+Starting game 5
+Draw in game 5 in 85 moves.
+. . r . . . . .
+. . . . . n . .
+. p . k . . . .
+. . p . p . . .
+. . . . . . p .
+. . . . . . r .
+. . . . . . . K
+. . n . q . . .
+
+
+Starting game 6
+Draw in game 6 in 156 moves.
+. . . . . . . K
+. . . q . q . .
+. . . . . . . .
+. . . . . . q .
+k . . . . . . .
+. . . . . b . .
+. . . . . . . .
+. . . . . . . .
+
+
+Starting game 7
+Draw in game 7 in 146 moves.
+. . . r . . . .
+p . . . . . . .
+. q . . . . . .
+. . . . p . . .
+. . K . . . . .
+. . . n . . . .
+. . . . k . . .
+q . . . . . . .
+
+
+Starting game 8
+Draw in game 8 in 95 moves.
+. . b . . . . .
+. . . n . . . .
+k . . p p . . .
+. . p . r q b .
+. p . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . K . . . .
+
+
+Starting game 9
+Draw in game 9 in 123 moves.
+n . . . r . k .
+. . . . . . . n
+. . . . . . p .
+p . . p . . q .
+. p b . p . . q
+. . . . . . . .
+r . . . . . . .
+. K . . . . . .
+
+
+Starting game 10
+Draw in game 10 in 116 moves.
+. . . . . . r .
+k . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. n . . . . . .
+. . . . . . . K
+. . . . . q . .
+. . . . . . . .
+
+
+Starting game 11
+Draw in game 11 in 72 moves.
+r k . . . . . .
+p . n . q p . .
+p . . . . . . .
+. r . . . p . .
+K . . . . . . p
+. . . . . . . .
+. . . . b . . .
+b . . . . . . .
+
+
+Starting game 12
+Draw in game 12 in 127 moves.
+. . . . . . . n
+. . . . . n . .
+p k . . . . . .
+p . . . p . . p
+K . b . . . . .
+. . . . . q . .
+. . . . . . . .
+. . . . r . . .
+
+
+Starting game 13
+Draw in game 13 in 77 moves.
+. . . . . . . K
+. . . r . . . .
+. k . . . . . b
+. . . . p . . .
+p . b . . . p .
+. . . . . . . q
+. . . . n . . .
+. . . . . . . .
+
+
+Starting game 14
+Draw in game 14 in 103 moves.
+. . . . . . . .
+. . . . . . . .
+. k p . r . . .
+q . . . . . . .
+p . p . . . . p
+n . . . . . . b
+. . r . . . . .
+K . . . . . . .
+
+
+Starting game 15
+Draw in game 15 in 176 moves.
+. . . . . . . .
+. k . . . . . .
+. . . . . . . .
+. . . . . . . r
+. . K . . . . .
+. . . . . q . .
+. . . q . . . .
+. . . . . . . .
+
+
+Starting game 16
+Draw in game 16 in 106 moves.
+. n . . q . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . p .
+. K . k . . . p
+. . . . . . . r
+. . . . . r . .
+q . . . . . . .
+
+
+Starting game 17
+Draw in game 17 in 52 moves.
+. . . . b . . .
+p . . . . . . .
+. p p . r n p .
+. . . . . . . .
+. . k . . K . .
+. . . q . . . .
+. . . . . . . .
+. . . . . . q .
+
+
+Starting game 18
+Draw in game 18 in 102 moves.
+. . . K . . . .
+. . . n . k p .
+. . . . . . . p
+p . . . . . . .
+. . . q . . . .
+. . . . . . . .
+. . r . . . . .
+. . . . . . . .
+
+
+Starting game 19
+Draw in game 19 in 101 moves.
+. . . . . . . q
+. . . . . K . .
+. . . . . p . .
+. . q . . k p .
+. . . . p . . .
+. . . . . . . .
+. . . . . . . .
+n . . . . . . .
+
+
+Starting game 20
+Draw in game 20 in 50 moves.
+. . . . . . n r
+p . . . . . . .
+. p . . . . . p
+. P . . k . . n
+. P . . . . . .
+. . . K . . . p
+. . . . . . . .
+b . q . q . . .
+
+
+
+Player 1 wins 0 game(s).
+Player 2 wins 0 game(s).
+Draw(s) 20

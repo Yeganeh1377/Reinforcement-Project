@@ -1,0 +1,246 @@
+
+
+Starting game 1
+Draw in game 1 in 38 moves.
+r n . . . . . r
+p . p p k p . p
+p . b . . p . .
+. . K . . . . .
+q . . . . . . .
+. . . . . q n .
+. . . . . . . .
+. . . . . . . .
+
+
+Starting game 2
+Player 2 wins game 2 in 89 moves.
+b k . . . . . .
+r . . n . . . r
+. . . p . . . p
+p . p p . p . q
+. . . b . . . .
+. . . . . . . .
+. . . . . . K .
+. . . . . n . q
+
+
+Starting game 3
+Player 2 wins game 3 in 23 moves.
+r n . . k . n r
+p . . p . p p p
+. . . . . . . .
+. . p . . . . .
+. . P . b . . .
+p . . . . . . .
+P . . . . . q .
+. . K . q . . .
+
+
+Starting game 4
+Draw in game 4 in 43 moves.
+. . . . k . . r
+. p . . . p . .
+. . p b . . . n
+. . . . p p . .
+. . p . . . . .
+. . . . K . . .
+. . . . . . q .
+. . . . . . . r
+
+
+Starting game 5
+Draw in game 5 in 65 moves.
+. . n k . b . r
+. p r . . p . p
+. . p . . . . .
+p . . . . p . .
+. . . . . . p .
+. . . n . . . q
+. . . . . . b .
+. . . . . . K .
+
+
+Starting game 6
+Draw in game 6 in 46 moves.
+. r . . . . . r
+. . p k b . . p
+K . n . . n . .
+p . . p p p p .
+. p . . . . . .
+. . q . . . . .
+. . . . . . . .
+. . . . . . . b
+
+
+Starting game 7
+Draw in game 7 in 31 moves.
+r n . . . . n r
+. . p . k . p .
+. . . . . . p .
+p p . . . p q .
+. . p . . b . .
+. . . . . K . .
+q . . . . . . .
+. . . . . . . .
+
+
+Starting game 8
+Draw in game 8 in 35 moves.
+. . r . k . . r
+p p . . p p . p
+. . p . . . . .
+. . . p n q . p
+. . . . n . . .
+. . . . b b . .
+. . . . . . . K
+. . . . . . . .
+
+
+Starting game 9
+Draw in game 9 in 63 moves.
+. r n . . . . .
+. . . . . . . .
+. p . p k p . p
+p . p . . . . p
+b . q . n p . .
+K . . . . . . .
+. . . . . . r .
+. . . . . . . .
+
+
+Starting game 10
+Draw in game 10 in 43 moves.
+b . . . . . n r
+p . . p . . p p
+. . . . . . p .
+. . . . . k . .
+p n p b p r . .
+. . . . . . . K
+. . . . . . . .
+. . . . . . q .
+
+
+Starting game 11
+Draw in game 11 in 90 moves.
+. . . . k r . .
+. . . . b p . n
+. . . . b . . p
+. p p . p . . .
+. n . . . . p .
+. . . . . . q .
+. . . . K . . .
+q . . r . . . .
+
+
+Starting game 12
+Player 2 wins game 12 in 38 moves.
+r . . . k . . r
+. p p . . n p p
+. . n . . . . .
+p . . . p . . .
+. b . . . p . .
+. . . . . . . .
+q . . . . . . .
+. . . q . . K .
+
+
+Starting game 13
+Draw in game 13 in 70 moves.
+. r . . k . n r
+. . . p . . . .
+. . p . b p . p
+p . . . . . . p
+. . . . q . . .
+K n . . . . . .
+. . . . . b . .
+. q . . . . . .
+
+
+Starting game 14
+Player 2 wins game 14 in 111 moves.
+. . q . . r . .
+. . . . k . . r
+. . . b p . n .
+p . . . . . . .
+. p p . . p b p
+. . . . . . . n
+. . . . . . . q
+. K . . . . q .
+
+
+Starting game 15
+Draw in game 15 in 30 moves.
+r n b . k b r .
+p . p . p p p .
+. p . . p . . .
+. . . . K . . p
+q . . . . . . .
+. . . . . . . .
+. . . . . . . .
+n . . . . . . .
+
+
+Starting game 16
+Draw in game 16 in 261 moves.
+. q . . . . r .
+q . . . . k . .
+q . . . . q b .
+p . . . . . . .
+. . p . p . . p
+. . . . . . r n
+K . . . . . . .
+. . b . q n . .
+
+
+Starting game 17
+Player 2 wins game 17 in 89 moves.
+. . b . . . . .
+p . . p . . . r
+. r n . . . . .
+. p b p . . p p
+. . p . . . . .
+k . . . q K . .
+. . . . . . . .
+. . . . . . q n
+
+
+Starting game 18
+Draw in game 18 in 184 moves.
+. . k . r . . .
+. . . . . . r q
+b . . . . . . .
+p p n . . q . .
+. . q . n . q .
+. . . p K . b .
+. . . . . . . .
+. . . . . q . .
+
+
+Starting game 19
+Draw in game 19 in 140 moves.
+. . . . . . r q
+p . k . . K p .
+. . . r . . . p
+. . . . . p . .
+. n . p . . . .
+. . p . . . . .
+. . . . . . . q
+. . n . q . . b
+
+
+Starting game 20
+Player 2 wins game 20 in 4 moves.
+r n b . k b n r
+p p p p . p p p
+. . . . . . . .
+. . . . p . . .
+. . . . . . . .
+. . . P . . . .
+P P P . P P P P
+R N q . K B N R
+
+
+
+Player 1 wins 0 game(s).
+Player 2 wins 6 game(s).
+Draw(s) 14
