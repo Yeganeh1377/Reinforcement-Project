@@ -2,24 +2,28 @@ import chess
 import random
 import player
 
+
 class DecisionTreeAI(player.Player):
     def __init__(self, description="Chess player that uses a decision tree.", color=chess.WHITE, depth=3, random=False,
-                 offensive=True, defensive=True):
+                 epsilon=0, offensive=True, defensive=True):
         self.type = "AI"
         self.description = description
         self.color = color
         self.depth = depth
         self.randomOpponent = random
+        self.epsilon = epsilon
         self.offensive = offensive
         self.defensive = defensive
 
     def move(self, board=chess.Board()):
-        print('MOVE')
-        self.mcount = 0
         legalMoves = list(board.legal_moves)
         numLegalMoves = len(legalMoves)
         if (numLegalMoves == 0):
             return -1
+
+        if self.epsilon > np.random.rand():
+            randMove = random.randint(0, numLegalMoves - 1)
+            return legalMoves[randMove]
 
         bestMoves = []
         maxScore = -20000

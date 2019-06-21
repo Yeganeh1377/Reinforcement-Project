@@ -1,0 +1,144 @@
+
+
+Starting game 1
+Player 1 wins game 1 in 16 moves.
+. . b Q . . k r
+p . N p . p p p
+. . . . p . . .
+. P . . n . B .
+. . . . . . . .
+. . P . . . . .
+. P P . P P . P
+. . . . K . N R
+
+
+Starting game 2
+Player 1 wins game 2 in 53 moves.
+. . . . . . . .
+. . . . . . . .
+. P . . . . . .
+. . . . . . . .
+P . . . . . . P
+. . . . . . . .
+. . . . . K Q k
+. . . . . . . .
+
+
+Starting game 3
+Player 1 wins game 3 in 18 moves.
+r n . . Q . k .
+p . p . . p . p
+. p . . . P p R
+. P . . p . P .
+. . . . b . . .
+B . P . . . . .
+P . P . P . . .
+R . . . K B N .
+
+
+Starting game 4
+Player 1 wins game 4 in 30 moves.
+. . . . . . . .
+. . . Q . . . p
+. . . . . . . .
+. . N . k . B .
+. . . . . . P .
+P . . P . N . .
+. P . . P . . .
+. R . . . K . .
+
+
+Starting game 5
+Player 1 wins game 5 in 33 moves.
+. . . . . . . .
+. . . . . . . .
+k . Q . . . . .
+p p . . . p . .
+. . . . . P . .
+. P . . B . . .
+P R K . N P P .
+. . . . . . . .
+
+
+Starting game 6
+Player 1 wins game 6 in 65 moves.
+. . . . . . . .
+. . . . . . . .
+. . . . . . . Q
+. P . . . . . .
+P . . N . . . k
+. . . . . . . P
+. B . . . K . .
+. . . N . . R .
+
+
+Starting game 7
+Player 1 wins game 7 in 109 moves.
+. . . . . . . .
+. . . . . . . .
+. . . . . . . .
+. . . . . . Q k
+. . . . . P . .
+. . . . . . . .
+. . . . . . K .
+. . . . . . . .
+
+
+Starting game 8
+Player 1 wins game 8 in 34 moves.
+. . . k . . . .
+. . . Q . . . .
+. . . . . . . .
+. B . . . . . .
+. . . P . . P P
+. . . . . . . .
+P P . P . P . .
+R . B . K . . R
+
+
+Starting game 9
+Draw in game 9 in 36 moves.
+. r . . . . . .
+p . . . . p . p
+. . . . . P p .
+. . . . . . . .
+. . . . R . . .
+. . k . . P . N
+r . . . . . . P
+. . K . . . . .
+
+
+Starting game 10
+Player 1 wins game 10 in 27 moves.
+. . . . . k . B
+. . . . . B . .
+. . . . . R . .
+. . . . P . . .
+. . . P . . . .
+Q . N . . . . .
+P . P . . . . P
+R . . . . . K .
+
+
+Starting game 11
+Player 1 wins game 11 in 33 moves.
+. . . . . . . .
+. . . . Q . . .
+. . . . . . . .
+. . . . k . . .
+P . P N . . . .
+. P R . P . . .
+. . . . . P P P
+. . . . K B . R
+
+
+Starting game 12
+Player 1 wins game 12 in 81 moves.
+Q . . k . . . .
+. . . . . . . R
+. . . . . . . .
+. . N . P P . P
+. . . . . . P .
+. . . . . . . .
+. . . . . . . .
+. . . . . . . K

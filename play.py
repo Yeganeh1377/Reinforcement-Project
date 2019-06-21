@@ -15,8 +15,9 @@ def play(printGame = True):
     # player1 = randomAI.RandomAI("Player 1")
     player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
     player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3)
-    # player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3, False, True, False)
-    # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, False, False, True)
+    # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, False, 0.2)
+    # player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3, False, 0, True, False)
+    # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, False, 0, False, True)
     # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, True)
     # player2 = scikitLinearAI.ScikitLinearAI("Player 2", chess.BLACK, 1, True)
 
