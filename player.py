@@ -1,4 +1,3 @@
-import numpy as np
 class Player(object):
     def __init__(self, type):
         self.type = type
