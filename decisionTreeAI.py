@@ -1,6 +1,7 @@
 import chess
 import random
 import player
+import numpy as np
 
 
 class DecisionTreeAI(player.Player):

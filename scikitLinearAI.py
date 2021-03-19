@@ -3,7 +3,7 @@ import chess.pgn
 import random
 import player
 import decisionTreeAI
-from sklearn.externals import joblib
+import joblib
 from sklearn import linear_model
 
 class ScikitLinearAI(decisionTreeAI.DecisionTreeAI):
