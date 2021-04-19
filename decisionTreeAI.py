@@ -62,7 +62,9 @@ class DecisionTreeAI(player.Player):
 
         return material
 
-    def traverseMinimaxTree(self, board=chess.Board(), depth=0, isMax=True):
+
+
+    def traverseMinimaxTree(self, board=chess.Board(), depth=0, isMax=True, alpha = -100000, beta = 100000):
         legalMoves = list(board.legal_moves)
         if depth == 0 or len(legalMoves) == 0:
             score = self.evaluateBoard(board)
@@ -80,20 +82,30 @@ class DecisionTreeAI(player.Player):
 
         minimaxScore = -20000 if isMax else 20000
         for i in range(0, len(legalMoves)):
+            temp_alpha = alpha
             tempBoard = chess.Board(board.fen())
             tempBoard.push(legalMoves[i])
             if isMax:
                 if self.randomOpponent:
                     score = self.traverseExpectimaxTree(tempBoard, depth - 1)
                 else:
-                    score = self.traverseMinimaxTree(tempBoard, depth - 1, False)
+                    score = self.traverseMinimaxTree(tempBoard, depth - 1, False, alpha=alpha, beta=beta)
                 if minimaxScore < score:
                     minimaxScore = score
+                alpha = max(alpha, score)
+                print(alpha, beta)
+                if beta <= alpha:
+                    break
             else:
-                score = self.traverseMinimaxTree(tempBoard, depth - 1, True)
+                print(alpha, beta)
+                score = self.traverseMinimaxTree(tempBoard, depth - 1, True, alpha=alpha, beta=beta)
                 if minimaxScore > score:
                     minimaxScore = score
 
+                beta = min(beta, score)
+                if beta <= alpha:
+                    print('black')
+                    break
         return minimaxScore
 
     def traverseExpectimaxTree(self, board=chess.Board(), depth=0):

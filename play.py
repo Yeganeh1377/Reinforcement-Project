@@ -5,15 +5,15 @@ import decisionTreeAI
 import scikitLinearAI
 
 def play(printGame = True):
+    #board = chess.Board()
     board = chess.Board()
-
     if printGame:
         print(board)
         print("Let's start with this game of chess")
 
     # player1 = human.Human("Player 1")
-    # player1 = randomAI.RandomAI("Player 1")
-    player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
+    player1 = randomAI.RandomAI("Player 1")
+    #player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
     player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3)
     # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, False, 0.2)
     # player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3, False, 0, True, False)
