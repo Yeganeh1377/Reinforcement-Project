@@ -12,9 +12,10 @@ def play(printGame = True):
         print("Let's start with this game of chess")
 
     # player1 = human.Human("Player 1")
-    player1 = randomAI.RandomAI("Player 1")
+    #player2 = randomAI.RandomAI("Player 2")
     #player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3)
-    player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3)
+    player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, depth = 2, random= False)
+    player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, depth = 2, random = True)
     # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, False, 0.2)
     # player1 = decisionTreeAI.DecisionTreeAI("Player 1", chess.WHITE, 3, False, 0, True, False)
     # player2 = decisionTreeAI.DecisionTreeAI("Player 2", chess.BLACK, 3, False, 0, False, True)

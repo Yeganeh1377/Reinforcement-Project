@@ -28,7 +28,10 @@ def playABunch(numGames, printGame=False):
             print('\n')
         totalMoves.append(finalBoard.fullmove_number)
 
-    print('\nPlayer 1 wins', player1Wins, 'game(s).\nPlayer 2 wins', player2Wins, 'game(s).\nDraw(s)', draws, 'games(s).\nAVG Moves ', np.sum(totalMoves)/numGames)
+
+    print('\nPlayer 1 wins', player1Wins, 'game(s).\nPlayer 2 wins', player2Wins, 'game(s).\nDraw(s)', draws,'games(s)')
+    print('\nAVG Moves ', np.sum(totalMoves) / numGames, '\nConfidence interval ', 1.96 * np.std(totalMoves) / np.sqrt(numGames))
+
 
 if __name__ == '__main__':
     nGames = input("How many games? ")
