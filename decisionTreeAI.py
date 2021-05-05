@@ -2,7 +2,8 @@ import chess
 import random
 import player
 import numpy as np
-
+import chess.engine
+import time
 
 class DecisionTreeAI(player.Player):
     def __init__(self, description="Chess player that uses a decision tree.", color=chess.WHITE, depth=3, random=False,
@@ -19,6 +20,74 @@ class DecisionTreeAI(player.Player):
         self.prunecount = 0
         self.count_exp = 0
 
+    # def moveexp1(self, board=chess.Board()):
+    #     legalMoves = list(board.legal_moves)
+    #     numLegalMoves = len(legalMoves)
+    #     if (numLegalMoves == 0):
+    #         return -1
+    #
+    #     if self.epsilon > np.random.rand():
+    #         randMove = random.randint(0, numLegalMoves - 1)
+    #         return legalMoves[randMove]
+    #
+    #     bestMoves = []
+    #     maxScore = -20000
+    #     # print(numLegalMoves)
+    #     for i in range(0, numLegalMoves):
+    #         tempBoard = chess.Board(board.fen())
+    #         tempBoard.push(legalMoves[i])
+    #
+    #         score = self.traverseMinimaxTree(tempBoard, self.depth, False)
+    #
+    #         if maxScore < score:
+    #             bestMoves = []
+    #             bestMoves.append(i)
+    #             maxScore = score
+    #         elif maxScore == score:
+    #             bestMoves.append(i)
+    #
+    #     #        for i in range(0, len(bestMoves)):
+    #     #            print bestMoves[i], legalMoves[bestMoves[i]]
+    #     randMove = random.randint(0, len(bestMoves) - 1)
+    #     #         print('Best Move', legalMoves[bestMoves[randMove]], 'with score', maxScore, 'out of', legalMoves)
+    #
+    #     print('number of state evaluations = ', self.count)
+    #     print('number of prunes = ', self.prunecount)
+    #     return legalMoves[bestMoves[randMove]]
+    #
+    # def moveexp2(self, board=chess.Board()):
+    #     legalMoves = list(board.legal_moves)
+    #     numLegalMoves = len(legalMoves)
+    #     if (numLegalMoves == 0):
+    #         return -1
+    #
+    #     if self.epsilon > np.random.rand():
+    #         randMove = random.randint(0, numLegalMoves - 1)
+    #         return legalMoves[randMove]
+    #
+    #     bestMoves = []
+    #     maxScore = -20000
+    #     # print(numLegalMoves)
+    #     for i in range(0, numLegalMoves):
+    #         tempBoard = chess.Board(board.fen())
+    #         tempBoard.push(legalMoves[i])
+    #
+    #         score = self.traverseMinimaxTree(tempBoard, self.depth, False)
+    #         if maxScore < score:
+    #             bestMoves = []
+    #             bestMoves.append(i)
+    #             maxScore = score
+    #         elif maxScore == score:
+    #             bestMoves.append(i)
+    #
+    #     #        for i in range(0, len(bestMoves)):
+    #     #            print bestMoves[i], legalMoves[bestMoves[i]]
+    #     randMove = random.randint(0, len(bestMoves) - 1)
+    #     #         print('Best Move', legalMoves[bestMoves[randMove]], 'with score', maxScore, 'out of', legalMoves)
+    #
+    #     print('number of state evaluations = ', self.count)
+    #     print('number of prunes = ', self.prunecount)
+    #     return legalMoves[bestMoves[randMove]]
     def move(self, board=chess.Board()):
         legalMoves = list(board.legal_moves)
         numLegalMoves = len(legalMoves)
@@ -65,11 +134,17 @@ class DecisionTreeAI(player.Player):
                     9 * (len(board.pieces(chess.QUEEN, self.color)) - len(board.pieces(chess.QUEEN, not self.color))) +
                     100 * (len(board.pieces(chess.KING, self.color)) - len(board.pieces(chess.KING, not self.color))))
 
-        # mobility = 0.1 * len(board.legal_moves)
+        #mobility = 0.1 * len(board.legal_moves)
 
         return score
 
+    '''
+    def evaluateBoard(self, board=chess.Board(), time_limit = 0.01):
+            engine = chess.engine.SimpleEngine.popen_uci("/usr/local/Cellar/stockfish/13/stockfish_10_64")
+            result = engine.analyse(board, chess.engine.Limit(time=time_limit))
+            return result.info["score"]
 
+    '''
 
     def traverseMinimaxTree(self, board=chess.Board(), depth=0, isMax=True, alpha = float('-inf'), beta = float('inf')):
         legalMoves = list(board.legal_moves)

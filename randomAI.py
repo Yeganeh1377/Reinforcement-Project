@@ -7,7 +7,7 @@ class RandomAI(player.Player):
         self.type = "AI"
         self.description = description
 
-    def move(self, board):
+    def moverandom(self, board):
         legalMoves = list(board.legal_moves)
         numLegalMoves = len(legalMoves)
         if (numLegalMoves == 0):
